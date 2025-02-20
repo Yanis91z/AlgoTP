@@ -39,7 +39,7 @@ Avant de commencer, assurez-vous d'avoir installé :
    pip install -r requirements.txt
 3. Lancer les services avec Docker :
    ```bash
-   docker-compose up -d
+   docker compose up -d
 4. Initialiser la base de données :
    ```bash
    docker exec -i sentiment_analysis_db mysql -h 127.0.0.1 -u user -ppassword sentiment_analysis < /PATH/AlgoTP/init.sql
