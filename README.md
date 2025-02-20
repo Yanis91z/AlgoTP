@@ -38,7 +38,7 @@ Avant de commencer, assurez-vous d'avoir installé :
    docker-compose up -d
 4. Initialiser la base de données :
    ```bash
-   docker exec -i sentiment_analysis_db mysql -u user -ppassword sentiment_analysis < /Users/yanis/Documents/AlgoTP/flask-sentiment-analysis/init.sql
+   docker exec -i sentiment_analysis_db mysql -u user -ppassword sentiment_analysis < /PATH/AlgoTP/flask-sentiment-analysis/init.sql
    python3 src/insert_tweets.py
 5. Démarrer l'application :
    ```bash
@@ -59,7 +59,7 @@ Avant de commencer, assurez-vous d'avoir installé :
    ```
    Rajouter cette ligne :
    ```bash
-   0 2 * * 1 /path/AlgoTP/env/bin/python /path/AlgoTP/src/retrain_model.py
+   0 2 * * 1 /PATH/AlgoTP/env/bin/python /PATH/AlgoTP/src/retrain_model.py
    ```
    taper :
    ```bash
