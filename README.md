@@ -66,12 +66,11 @@ Avant de commencer, assurez-vous d'avoir installé :
    ```bash
    crontab -e
    ```
-   Rajouter cette ligne :
-
    Pour supprimer une ligne il faut se positionner sur la ligne en question et faire :
    ```bash
    dd
    ```
+   Rajouter cette ligne :
    ```bash
    0 2 * * 1 /PATH/AlgoTP/env/bin/python /PATH/AlgoTP/src/retrain_model.py
    ```
