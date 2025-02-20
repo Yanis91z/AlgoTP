@@ -68,5 +68,5 @@ Avant de commencer, assurez-vous d'avoir installé :
    taper :
    ```bash
    :qa
-   Appuyer sur Entrer pour quitter
+   Puis appuyer sur Entrer pour quitter
    ```
