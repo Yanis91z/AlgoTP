@@ -12,8 +12,6 @@ Réentraînement du modèle pour une amélioration continue.
 
 Intégration avec une base de données MySQL pour le stockage des données.
 
-Déploiement via Docker et gestion automatique des dépendances.
-
 ## Prérequis
 
 Avant de commencer, assurez-vous d'avoir installé :
