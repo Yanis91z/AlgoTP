@@ -40,20 +40,20 @@ Avant de commencer, assurez-vous d'avoir installé :
    ```bash
    docker exec -i sentiment_analysis_db mysql -u user -ppassword sentiment_analysis < /Users/yanis/Documents/AlgoTP/flask-sentiment-analysis/init.sql
    python3 src/insert_tweets.py
-6. Démarrer l'application :
+5. Démarrer l'application :
    ```bash
    python3 src/app.py
-7. Tester l'API (Cette requête permet d'envoyer le fichier tweets.json à l'API pour analyser les sentiments des tweets qu'il contient) :
+6. Tester l'API (Cette requête permet d'envoyer le fichier tweets.json à l'API pour analyser les sentiments des tweets qu'il contient) :
    
    Dans un autre terminal
    ```bash
    cd AlgoTP
    source env/bin/activate
    curl -X POST http://127.0.0.1:5000/analyze -H "Content-Type: application/json" -d @tweets.json
-9. Réentraînement du Modèle manuel :
+7. Réentraînement du Modèle manuel :
    ```bash
    python3 src/retrain_model.py
-10. Réentraînement du Modèle automatique tous les lundi à 2h :
+8. Réentraînement du Modèle automatique tous les lundi à 2h :
    ```bash
    crontab -e
    ```
