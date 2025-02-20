@@ -27,7 +27,7 @@ Avant de commencer, assurez-vous d'avoir installé :
 1. Clonez le dépôt :
    ```bash
    git clone https://github.com/Yanis91z/AlgoTP
-   cd sentiment-analysis-api
+   cd AlgoTP
 2. Configurer l'environnement virtuel :
    ```bash
    python3 -m venv env
@@ -38,7 +38,7 @@ Avant de commencer, assurez-vous d'avoir installé :
    docker-compose up -d
 4. Initialiser la base de données :
    ```bash
-   mysql -u root -p sentiment_analysis < init.sql
+   mysql -u root -p AlgoTP < init.sql
    exit
    python3 src/insert_tweets.py
 6. Démarrer l'application :
@@ -53,5 +53,5 @@ Avant de commencer, assurez-vous d'avoir installé :
 9. Réentraînement du Modèle automatique tous les lundi à 2h :
    ```bash
    crontab -e
-   0 2 * * 1 /path/flask-sentiment-analysis/env/bin/python /path/flask-sentiment-analysis/src/retrain_model.py
+   0 2 * * 1 /path/AlgoTP/env/bin/python /path/AlgoTP/src/retrain_model.py
    taper ":wq" & press enter pour quitter
