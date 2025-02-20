@@ -30,17 +30,14 @@ Avant de commencer, assurez-vous d'avoir installé :
    ```bash
    git clone https://github.com/Yanis91z/AlgoTP
    cd sentiment-analysis-api
-   ```bash
 2. Configurer l'environnement virtuel :
    ```bash
    python3 -m venv env
    source env/bin/activate
    pip install -r requirements.txt
-   ```bash
 3. Lancer les services avec Docker :
    ```bash
    docker-compose up -d
-   ```bash
 4. Initialiser la base de données :
    ```bash
    mysql -u root -p sentiment_analysis < init.sql
@@ -49,18 +46,14 @@ Avant de commencer, assurez-vous d'avoir installé :
 6. Démarrer l'application :
    ```bash
    python3 src/app.py
-   ```bash
 7. Tester l'API :
    ```bash
    curl -X POST http://127.0.0.1:5000/analyze -H "Content-Type: application/json" -d @tweets.json
-   ```bash
 8. Réentraînement du Modèle :
    ```bash
    python3 src/retrain_model.py
-   ```bash
 9. Réentraînement du Modèle tous les lundi à 2h :
    ```bash
    crontab -e
    0 2 * * 1 /path/flask-sentiment-analysis/env/bin/python /path/flask-sentiment-analysis/src/retrain_model.py
    taper ":wq" & press enter pour quitter
-   ```bash
