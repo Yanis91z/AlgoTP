@@ -22,6 +22,10 @@ Avant de commencer, assurez-vous d'avoir installé :
 
 - Git
 
+- Pour obtenir votre PATH :
+  ```bash
+  pwd
+
 ## Installation
 
 1. Clonez le dépôt :
