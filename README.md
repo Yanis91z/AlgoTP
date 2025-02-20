@@ -49,10 +49,10 @@ Avant de commencer, assurez-vous d'avoir installé :
 7. Tester l'API :
    ```bash
    curl -X POST http://127.0.0.1:5000/analyze -H "Content-Type: application/json" -d @tweets.json
-8. Réentraînement du Modèle :
+8. Réentraînement du Modèle manuel :
    ```bash
    python3 src/retrain_model.py
-9. Réentraînement du Modèle tous les lundi à 2h :
+9. Réentraînement du Modèle automatique tous les lundi à 2h :
    ```bash
    crontab -e
    0 2 * * 1 /path/flask-sentiment-analysis/env/bin/python /path/flask-sentiment-analysis/src/retrain_model.py
