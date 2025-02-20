@@ -44,6 +44,7 @@ Avant de commencer, assurez-vous d'avoir installé :
    ```bash
    python3 src/app.py
 7. Tester l'API (Cette requête permet d'envoyer le fichier tweets.json à l'API pour analyser les sentiments des tweets qu'il contient) :
+   
    Dans un autre terminal
    ```bash
    cd AlgoTP
