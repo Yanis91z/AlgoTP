@@ -42,11 +42,11 @@ Avant de commencer, assurez-vous d'avoir installé :
    docker-compose up -d
    ```bash
 4. Initialiser la base de données :
+   ```bash
    mysql -u root -p sentiment_analysis < init.sql
    exit
    python3 src/insert_tweets.py
-   ```bash
-5. Démarrer l'application :
+6. Démarrer l'application :
    ```bash
    python3 src/app.py
    ```bash
