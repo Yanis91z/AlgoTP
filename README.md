@@ -64,5 +64,5 @@ Avant de commencer, assurez-vous d'avoir installé :
    taper :
    ```bash
    :wq
-   ```
    Appuyer sur Entrer pour quitter
+   ```
