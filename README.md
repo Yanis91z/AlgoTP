@@ -53,5 +53,12 @@ Avant de commencer, assurez-vous d'avoir installé :
    ```bash
    crontab -e
    ```
+   Rajouter cette ligne :
+   ```bash
    0 2 * * 1 /path/AlgoTP/env/bin/python /path/AlgoTP/src/retrain_model.py
-   taper ":wq" & press enter pour quitter
+   ```
+   taper :
+   ```bash
+   ":wq"
+   ```
+   & press enter pour quitter
