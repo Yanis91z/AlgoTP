@@ -38,8 +38,7 @@ Avant de commencer, assurez-vous d'avoir installé :
    docker-compose up -d
 4. Initialiser la base de données :
    ```bash
-   mysql -u root -p AlgoTP < init.sql
-   exit
+   docker exec -i sentiment_analysis_db mysql -u user -ppassword sentiment_analysis < /Users/yanis/Documents/AlgoTP/flask-sentiment-analysis/init.sql
    python3 src/insert_tweets.py
 6. Démarrer l'application :
    ```bash
@@ -53,5 +52,6 @@ Avant de commencer, assurez-vous d'avoir installé :
 9. Réentraînement du Modèle automatique tous les lundi à 2h :
    ```bash
    crontab -e
+   ```
    0 2 * * 1 /path/AlgoTP/env/bin/python /path/AlgoTP/src/retrain_model.py
    taper ":wq" & press enter pour quitter
