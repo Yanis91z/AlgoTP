@@ -44,12 +44,15 @@ Avant de commencer, assurez-vous d'avoir installé :
    ```bash
    python3 src/app.py
 7. Tester l'API (Cette requête permet d'envoyer le fichier tweets.json à l'API pour analyser les sentiments des tweets qu'il contient) :
+   Dans un autre terminal
    ```bash
+   cd AlgoTP
+   source env/bin/activate
    curl -X POST http://127.0.0.1:5000/analyze -H "Content-Type: application/json" -d @tweets.json
-8. Réentraînement du Modèle manuel :
+9. Réentraînement du Modèle manuel :
    ```bash
    python3 src/retrain_model.py
-9. Réentraînement du Modèle automatique tous les lundi à 2h :
+10. Réentraînement du Modèle automatique tous les lundi à 2h :
    ```bash
    crontab -e
    ```
@@ -59,6 +62,6 @@ Avant de commencer, assurez-vous d'avoir installé :
    ```
    taper :
    ```bash
-   ":wq"
+   :wq
    ```
    & press enter pour quitter
