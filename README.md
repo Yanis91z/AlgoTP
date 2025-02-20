@@ -50,10 +50,10 @@ Avant de commencer, assurez-vous d'avoir installé :
    cd AlgoTP
    source env/bin/activate
    curl -X POST http://127.0.0.1:5000/analyze -H "Content-Type: application/json" -d @tweets.json
-7. Réentraînement du Modèle manuel :
+7. Réentraînement du Modèle (manuel) :
    ```bash
    python3 src/retrain_model.py
-8. Réentraînement du Modèle automatique tous les lundi à 2h :
+8. Réentraînement du Modèle tous les lundi à 2h (automatique) :
    ```bash
    crontab -e
    ```
@@ -65,4 +65,4 @@ Avant de commencer, assurez-vous d'avoir installé :
    ```bash
    :wq
    ```
-   & press enter pour quitter
+   Appuyer sur Entrer pour quitter
