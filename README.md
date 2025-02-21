@@ -77,5 +77,5 @@ Avant de commencer, assurez-vous d'avoir installé :
    taper :
    ```bash
    :qa
-   Puis appuyer sur Entrer pour quitter
+   Puis appuyer sur Entrée pour quitter
    ```
