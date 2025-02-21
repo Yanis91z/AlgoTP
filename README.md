@@ -22,6 +22,8 @@ Avant de commencer, assurez-vous d'avoir installé :
 
 - Git
 
+- Utiliser git bash pour les utilisateurs Windows
+
 - Pour obtenir votre PATH :
   ```bash
   pwd
@@ -35,12 +37,21 @@ Avant de commencer, assurez-vous d'avoir installé :
 2. Configurer l'environnement virtuel :
    ```bash
    python3 -m venv env
+   ```
+   Pour Windows :
+   ```bash
+   source env/Scripts/activate
+   ```
+   Sinon :
+   ```bash
    source env/bin/activate
+   ```
+   ```bash
    pip install -r requirements.txt
-3. Lancer les services avec Docker :
+4. Lancer les services avec Docker :
    ```bash
    docker compose up -d
-4. Initialiser la base de données :
+5. Initialiser la base de données :
 
    Création de la table tweets :
    ```bash
@@ -76,6 +87,6 @@ Avant de commencer, assurez-vous d'avoir installé :
    ```
    taper :
    ```bash
-   :qa
+   :wq
    Puis appuyer sur Entrée pour quitter
    ```
