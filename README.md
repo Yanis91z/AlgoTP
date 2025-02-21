@@ -78,7 +78,7 @@ Avant de commencer, assurez-vous d'avoir installé :
    ```bash
    crontab -e
    ```
-   Si demandé, utilisé l'éditeur Vim.
+   Si demandé, utiliser l'éditeur Vim pour suivre les étapes ci-dessous.
    
    Rajouter cette ligne :
    ```bash
@@ -93,3 +93,18 @@ Avant de commencer, assurez-vous d'avoir installé :
    ```bash
    dd
    ```
+   Sinon vous pouvez utiliser l'éditeur Nano avec les instructions suivantes :
+   
+   Rajouter cette ligne :
+   ```bash
+   0 2 * * 1 /PATH/AlgoTP/env/bin/python /PATH/AlgoTP/src/retrain_model.py
+   ```
+   Pour quitter :
+   ```bash
+   Ctrl-X
+   ```
+   Pour visualiser la tâche :
+   ```bash
+   crontab -l
+   
+   
