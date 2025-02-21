@@ -46,6 +46,7 @@ Avant de commencer, assurez-vous d'avoir installé :
    ```bash
    source env/bin/activate
    ```
+   Ensuite :
    ```bash
    pip install -r requirements.txt
 4. Lancer les services avec Docker :
