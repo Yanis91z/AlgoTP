@@ -4,6 +4,14 @@
 
 L'API d'Analyse de Sentiments permet de classifier des textes en fonction de leur tonalité (positive, négative ou neutre). Elle est conçue pour être déployée facilement et inclut un mécanisme de réentraînement du modèle afin d'améliorer sa précision avec le temps.
 
+## Participants
+
+Yanis CHAILI
+Abdourahman HASSAN
+Lahcen EL OUARDI
+Thibaut ROUSSEL
+Youba IMAKHLAF
+
 ## Fonctionnalités
 
 Analyse de sentiments en temps réel via une API REST.
