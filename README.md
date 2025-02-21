@@ -73,7 +73,7 @@ Avant de commencer, assurez-vous d'avoir installé :
 8. Réentraînement du Modèle (manuel) :
    ```bash
    python3 src/retrain_model.py
-9. Réentraînement du Modèle tous les lundi à 2h (automatique) :
+9. Réentraînement du Modèle tous les lundi à 2h (automatique) pour MacOS & Linux :
    ```bash
    crontab -e
    ```
