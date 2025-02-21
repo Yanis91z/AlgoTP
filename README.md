@@ -6,11 +6,15 @@ L'API d'Analyse de Sentiments permet de classifier des textes en fonction de leu
 
 ## Participants
 
-Yanis CHAILI
-Abdourahman HASSAN
-Lahcen EL OUARDI
-Thibaut ROUSSEL
-Youba IMAKHLAF
+- Yanis CHAILI
+
+- Abdourahman HASSAN
+
+- Lahcen EL OUARDI
+
+- Thibaut ROUSSEL
+
+- Youba IMAKHLAF
 
 ## Fonctionnalités
 
