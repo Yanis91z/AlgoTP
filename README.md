@@ -78,10 +78,8 @@ Avant de commencer, assurez-vous d'avoir installé :
    ```bash
    crontab -e
    ```
-   Si besoin, pour supprimer une ligne il faut se positionner sur la ligne en question et faire :
-   ```bash
-   dd
-   ```
+   Si demandé, utilisé l'éditeur Vim.
+   
    Rajouter cette ligne :
    ```bash
    0 2 * * 1 /PATH/AlgoTP/env/bin/python /PATH/AlgoTP/src/retrain_model.py
@@ -90,4 +88,8 @@ Avant de commencer, assurez-vous d'avoir installé :
    ```bash
    :wq
    Puis appuyer sur Entrée pour quitter
+   ```
+   Si besoin, pour supprimer une ligne il faut se positionner sur la ligne en question et faire :
+   ```bash
+   dd
    ```
