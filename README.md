@@ -84,9 +84,10 @@ Avant de commencer, assurez-vous d'avoir installé :
    ```bash
    0 2 * * 1 /PATH/AlgoTP/env/bin/python /PATH/AlgoTP/src/retrain_model.py
    ```
-   taper :
+   Pour quitter, tapez :
    ```bash
    :wq
+   ```
    Puis appuyer sur Entrée pour quitter
    ```
    Si besoin, pour supprimer une ligne il faut se positionner sur la ligne en question et faire :
